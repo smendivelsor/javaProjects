@@ -26,10 +26,8 @@ public class SavigsAccount {
   public static void main(String[] args) {
     SavigsAccount zeusSavigsAccount = new SavigsAccount("Zeus", 1000);
 
-    // Hacer una llamada a addMoney() para probar el método
     zeusSavigsAccount.addMoney(2000);
-
-    // Imprime el balance en euros después de agregar dinero
+    
     System.out.println("Balance in euros: " + zeusSavigsAccount.balanceEuro);
   }
 }
